@@ -1,2 +1,0 @@
-# TMS
- Talent Management System
