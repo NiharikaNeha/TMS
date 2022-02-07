@@ -8,28 +8,33 @@
 }
 
 .left-menu-bar{
-  background-color: #c084fc;
+  background-color: #e9d5ff;
   border-spacing: 0px;
   padding: 0px;
   vertical-align: baseline;
 }
 
 .my-profile-text{
-  align-items: center;
   padding: 2rem 0rem;
   width: 10rem;
   font-weight: bold;
-  background-color: #e9d5ff;
+  background-color: #d8b4fe;
+  font-size: large;
+  border: none;
 }
 
 .review{
-  font-weight: normal;
   padding: 2rem 0rem;
+  font-size: large;
+  background-color: #e9d5ff;
+  border: none;
 }
 
 .review-results{
-  font-weight: normal;
   padding: 2rem 0rem;
+  font-size: large;
+  background-color: #e9d5ff;
+  border: none;
 }
 
 .right-info-page{
@@ -37,50 +42,46 @@
 }
 
 .profile-bar{
-  /* background-color: #c084fc; */
-  height: 15rem;
-  align-items: flex-end;
+  height: 14rem;
 }
 
 .name-mail-section{
   text-align: end;
   font-weight: normal;
-  width: 15rem;
-  padding-left: 45rem;
+  padding-left: 30rem;
 }
 
 .name{
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 1rem;
+  width: 20rem;
 }
 
 .mail{
+  font-size: 20px;
   font-style: italic;
 }
 
 .profile-photo{
-  height: 5rem;
-  align-self: flex-start;
+  height: 9rem;
 }
 
 .dept-desg-bar{
   height: 14rem;
-  background-color: aliceblue;
-  width: 20rem;
 }
 
 .dept-bar{
   padding-left: 10rem;
-  width: 20rem;
 }
 
 .photo{
-  height: 5rem;
+  width: 5rem;
 }
 
 .title-description{
   padding-left: 1rem;
   text-align: left;
+  width: 10rem;
 }
 
 .title{
@@ -89,15 +90,5 @@
 }
 
 .description{
-
+  font-size: large;
 }
-
-.desg-bar{
-  text-align: left;
-}
-
-.dob-man-bar{
-  height: 14rem;
-  background-color: antiquewhite;
-}
-  

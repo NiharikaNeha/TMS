@@ -9,15 +9,18 @@ export default function App() {
         <tbody>
           <th className="left-menu-bar">
             <tr>
-              <p className="my-profile-text">My Profile</p>
+              <button className="my-profile-text">My Profile</button>
+              {/* <p className="my-profile-text">My Profile</p> */}
             </tr>
             <tr>
               <th>
-                <p className='review'>Review</p>
+                <button className="review">Review</button>
+                {/* <p className='review'>Review</p> */}
               </th>
             </tr>
             <tr>
-              <p className='review-results'>Review Results</p>
+              <button className="review-results">Review Results</button>
+              {/* <p className='review-results'>Review Results</p> */}
             </tr>
           </th>
           <th className="right-info-page">
@@ -52,9 +55,9 @@ export default function App() {
                   <tr><p className="description">07-10-1984</p></tr>
                 </th>
               </th>
-              <th className="manager-bar">
-              <th><img className="photo" src="https://cdn3.vectorstock.com/i/1000x1000/70/52/executive-manager-icon-simple-style-vector-27507052.jpg" alt=""></img></th>
-              <th className="title-description">
+              <th className="desg-bar">
+                <th><img className="photo" src="https://cdn3.vectorstock.com/i/1000x1000/70/52/executive-manager-icon-simple-style-vector-27507052.jpg" alt=""></img></th>
+                <th className="title-description">
                   <tr><p className="title">Manager Name</p></tr>
                   <tr><p className="description">Torben Devin</p></tr>
                 </th>
