@@ -1,6 +1,5 @@
 import "./add_review_styles.css";
-import useCollapse from 'react-collapsed';
-import { React, useState} from 'react';
+import { React} from 'react';
 
 export default function App() {
 
@@ -12,7 +11,18 @@ export default function App() {
             <tr>
               <button className="my-profile-text">My Profile</button>
             </tr>
-            <Collapsible/>
+            <tr>
+              <button className="review">Review</button>
+            </tr>
+            <tr>
+              <button className="reviews">Reviews</button>
+          </tr>
+          <tr>
+              <button className="requested_reviews">Requested Reviews</button>
+          </tr>
+          <tr>
+              <button className="add_review">Add Review</button>
+          </tr>
             <tr>
               <button className="review-results">Review Results</button>
             </tr>
@@ -22,40 +32,6 @@ export default function App() {
           </th>
         </tbody>
       </table>
-    </div>
-  );
-}
-
-function Collapsible() {
-  const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
-  return (
-    <div >
-      <div {...getToggleProps()}>
-              {
-              <div className="left-menu-bar">
-                <th>
-              <button className="review">Review</button>
-            </th>
-              </div>
-              }
-          </div>
-          <div {...getCollapseProps()}>
-          <tr>
-            <th>
-              <button className="reviews">Reviews</button>
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <button className="requested_reviews">Requested Reviews</button>
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <button className="add_review">Add Review</button>
-            </th>
-          </tr>
-          </div> 
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import "./reviews_styles.css";
-import useCollapse from 'react-collapsed';
 import { React, useState } from "react";
 
 const Cards_array = [
@@ -44,37 +43,10 @@ export default function App() {
             <tr>
               <button className="my-profile-text">My Profile</button>
             </tr>
-            <Collapsible/>
-            <tr>
-              <button className="review-results">Review Results</button>
-            </tr>
-          </th>
-          <th className="right-info-page">
-            <tr>
-              <CardList cards = {cards}/>
-            </tr>
-          </th>
-        </tbody>
-      </table>
-    </div>
-  );
-}
-
-function Collapsible() {
-  const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
-  return (
-    <div >
-      <div {...getToggleProps()}>
-              {
-              <div>
-                <th>
+            <th>
               <button className="review">Review</button>
             </th>
-              </div>
-              }
-          </div>
-          <div {...getCollapseProps()}>
-          <tr>
+            <tr>
             <th>
               <button className="reviews">Reviews</button>
             </th>
@@ -89,7 +61,17 @@ function Collapsible() {
               <button className="add_review">Add Review</button>
             </th>
           </tr>
-          </div> 
+            <tr>
+              <button className="review-results">Review Results</button>
+            </tr>
+          </th>
+          <th className="right-info-page">
+            <tr>
+              <CardList cards = {cards}/>
+            </tr>
+          </th>
+        </tbody>
+      </table>
     </div>
   );
 }
