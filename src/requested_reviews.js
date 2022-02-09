@@ -1,4 +1,4 @@
-import "./add_review_styles.css";
+import "./requested_reviews_styles.css";
 import { React, useState } from "react";
 
 export default function App() {
@@ -50,31 +50,38 @@ export default function App() {
 const Cards_array = [
   {
     name: "James Corden",
-    mail: "oyo1@oyorooms.com"
+    mail: "oyo1@oyorooms.com",
+    status: "Completed"
   },
   {
     name:"Jackie Stewart",
-    mail:"oyo4@oyorooms.com"
+    mail:"oyo4@oyorooms.com",
+    status: "Pending"
   },
   {
     name: "James Key",
-    mail: "oyo2@oyorooms.com"
+    mail: "oyo2@oyorooms.com",
+    status: "Completed"
   },
   {
     name: "Lewis Hamilton",
-    mail: "oyo11@oyorooms.com"
+    mail: "oyo11@oyorooms.com",
+    status: "Pending"
   },
   {
     name:"Damon Hill",
-    mail:"oyo3@oyorooms.com"
+    mail:"oyo3@oyorooms.com",
+    status: "Completed"
   },
   {
     name:"George Russell",
-    mail:"oyo12@oyorooms.com"
+    mail:"oyo12@oyorooms.com",
+    status: "Pending"
   },
   {
     name:"Nicholas Latifi",
-    mail:"oyo13@oyorooms.com"
+    mail:"oyo13@oyorooms.com",
+    status: "Completed"
   }
 ];
 
@@ -101,7 +108,7 @@ function Card({card}) {
         </tr>
       </th>
       <th>
-        <button className="card-button">Add a review</button>
+        <p className="card-button">{card.status}</p>
       </th>
     </div>
   );

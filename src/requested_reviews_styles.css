@@ -22,7 +22,7 @@
   border: none;
 }
 
-.review, .add_review{
+.review, .requested_reviews{
   padding: 2rem 0rem;
   width: 15rem;
   font-weight: bold;
@@ -76,10 +76,10 @@
 
 .card-button{
     border-radius: 2rem;
-    height: 3rem;
     width: 10rem;
     background-color: #C86E6E;
     font-weight: bold;
     border: none;
     font-size: 19px;
+    padding: 1rem 0rem;
 }
