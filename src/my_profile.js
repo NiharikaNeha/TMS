@@ -1,4 +1,5 @@
 import "./my_profile_styles.css";
+import useCollapse from 'react-collapsed';
 import { React, useState} from 'react';
 
 export default function App() {
@@ -8,7 +9,7 @@ export default function App() {
   const [desg, setDesg] = useState("Employee");
   const [dob, setDob] = useState("07-10-1984");
   const [manager, setManager] = useState("Torben Devin");
-  
+
   return (
     <div className="App">
       <table>
@@ -17,11 +18,7 @@ export default function App() {
             <tr>
               <button className="my-profile-text">My Profile</button>
             </tr>
-            <tr>
-              <th>
-                <button className="review">Review</button>
-              </th>
-            </tr>
+            <Collapsible/>
             <tr>
               <button className="review-results">Review Results</button>
             </tr>
@@ -69,6 +66,40 @@ export default function App() {
           </th>
         </tbody>
       </table>
+    </div>
+  );
+}
+
+function Collapsible() {
+  const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
+  return (
+    <div >
+      <div {...getToggleProps()}>
+              {
+              <div className="left-menu-bar">
+                <th>
+              <button className="review">Review</button>
+            </th>
+              </div>
+              }
+          </div>
+          <div {...getCollapseProps()}>
+          <tr>
+            <th>
+              <button className="reviews">Reviews</button>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <button className="requested_reviews">Requested Reviews</button>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <button className="add_review">Add Review</button>
+            </th>
+          </tr>
+          </div> 
     </div>
   );
 }
