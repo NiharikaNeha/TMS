@@ -1,0 +1,104 @@
+.App {
+    font-family: sans-serif;
+    background-color: #d3e1f1;
+  }
+
+* {
+  margin: 0;
+}
+
+.left-menu-bar{
+  background-color: #e9d5ff;
+  border-spacing: 0px;
+  padding: 0px;
+  vertical-align: baseline;
+}
+
+.my-profile-text{
+  padding: 2rem 0rem;
+  width: 15rem;
+  background-color: #d8b4fe;
+  font-size: large;
+  border: none;
+}
+
+.review{
+  padding: 2rem 0rem;
+  width: 15rem;
+  font-size: large;
+  background-color: #e9d5ff;
+  border: none;
+}
+
+.reviews, .requested_reviews, .add_review{
+  padding: 2rem 0rem;
+  width: 15rem;
+  font-size: large;
+  background-color: #c084fc;
+  border: none;
+}
+
+.review-results{
+  padding: 2rem 0rem;
+  width: 15rem;
+  font-size: large;
+  font-weight: bold;
+  background-color: #e9d5ff;
+  border: none;
+}
+
+.right-info-page{
+  border-spacing: 0px;
+}
+
+.profile-bar{
+  height: 14.25rem;
+}
+
+.name-mail-section{
+  text-align: end;
+  font-weight: normal;
+  padding-left: 30rem;
+}
+
+.name{
+  font-size: 35px;
+  margin-bottom: 1rem;
+  width: 20rem;
+}
+
+.mail{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.profile-photo{
+  height: 9rem;
+}
+
+.dept-desg-bar{
+  height: 14rem;
+}
+
+.dept-bar{
+  padding-left: 10rem;
+}
+
+.photo{
+  width: 5rem;
+}
+
+.title-description{
+  padding-left: 1rem;
+  text-align: left;
+  width: 10rem;
+}
+
+.title{
+  font-weight: normal;
+  padding-bottom: 0.5rem;
+}
+
+.description{
+  font-size: large;
+}
