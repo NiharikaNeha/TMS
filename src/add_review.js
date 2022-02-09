@@ -1,4 +1,4 @@
-import "./reviewed_to_be_styles.css";
+import "./add_review_styles.css";
 import { React, useState } from "react";
 
 export default function App() {
@@ -101,7 +101,7 @@ function Card({card}) {
         </tr>
       </th>
       <th>
-        <button className="card-button">View/Update</button>
+        <button className="card-button">Add a review</button>
       </th>
     </div>
   );
