@@ -1,0 +1,85 @@
+.App {
+    font-family: sans-serif;
+    background-color: #d3e1f1;
+  }
+
+* {
+  margin: 0;
+}
+
+.left-menu-bar{
+  background-color: #e9d5ff;
+  border-spacing: 0px;
+  padding: 0px;
+  vertical-align: baseline;
+}
+
+.my-profile-text{
+  padding: 2rem 0rem;
+  width: 15rem;
+  background-color: #e9d5ff;
+  font-size: large;
+  border: none;
+}
+
+.review, .reviews{
+  padding: 2rem 0rem;
+  width: 15rem;
+  font-weight: bold;
+  font-size: large;
+  background-color: #d8b4fe;
+  border: none;
+}
+
+.reviews, .requested_reviews, .add_review{
+    padding: 2rem 0rem;
+    width: 15rem;
+    font-size: large;
+    background-color: #c084fc;
+    border: none;
+  }
+
+.review-results{
+  padding: 2rem 0rem;
+  font-size: large;
+  background-color: #e9d5ff;
+  border: none;
+}
+
+.right-info-page{
+  border-spacing: 0px;
+  width: 90rem;
+  padding-left: 26rem;
+}
+
+.card-template{
+    background-color: #76B9D6;
+    border-radius: 20px;
+    padding: 0rem 1rem;
+    vertical-align: middle;
+    margin: 1rem 0rem;
+}
+
+.card-info{
+    padding: 1.5rem 2.5rem;
+    font-weight: normal;
+}
+
+.card-info-name{
+    padding: 0rem 0rem 0.5rem 0rem;
+    font-size: 18px;
+}
+
+.card-info-mail{
+    font-size: 15px;
+}
+
+.card-button{
+    border-radius: 2rem;
+    height: 3rem;
+    width: 10rem;
+    background-color: #C86E6E;
+    font-weight: bold;
+    border: none;
+    font-size: 19px;
+}

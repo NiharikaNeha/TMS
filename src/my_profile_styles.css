@@ -16,7 +16,7 @@
 
 .my-profile-text{
   padding: 2rem 0rem;
-  width: 10rem;
+  width: 15rem;
   font-weight: bold;
   background-color: #d8b4fe;
   font-size: large;
@@ -42,7 +42,7 @@
 }
 
 .profile-bar{
-  height: 14rem;
+  height: 14.25rem;
 }
 
 .name-mail-section{
